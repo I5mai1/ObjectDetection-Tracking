@@ -1,6 +1,6 @@
 # Real-Time Object Detection using YOLO and OpenCV
 
-This project demonstrates real-time object detection using the YOLO (You Only Look Once) model and OpenCV. The YOLO model is capable of detecting multiple objects in images and videos with high accuracy and speed.
+This project demonstrates real-time object detection using the YOLO (You Only Look Once) model and OpenCV.
 
 ## Features
 
@@ -14,5 +14,24 @@ This project demonstrates real-time object detection using the YOLO (You Only Lo
 - Python 3.x
 - OpenCV
 - NumPy
-- YOLO configuration and weights files (e.g., `yolov3.cfg` and `yolov3.weights`)
-- COCO class names file (`coco.names`)
+- YOLO configuration and weights files (e.g., yolov3.cfg and yolov3.weights)
+- COCO class names file (coco.names)
+
+## Installation
+
+1. Install Python 3.x
+2. Install required dependencies:
+   ```bash
+   pip install opencv-python numpy
+   
+Usage
+
+    Download YOLO configuration file (yolov3.cfg), weights file (yolov3.weights), and class names file (coco.names) from YOLO website.
+    Organize files in the project directory.
+    Run the script:
+
+    bash
+
+python yolo_detection.py
+
+Press 'q' to exit the application.
